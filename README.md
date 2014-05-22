@@ -19,7 +19,13 @@ $ vagrant up
 Database
 --------
 
-???
+Import post-install dump into *mysql*:
+
+$ cd vagrant
+$ vagrant up
+$ vagrant ssh
+$ cd /var/www
+$ sudo mysql -p0000 concrete5base < sql/concrete5base.sql
 
 
 Hosts
