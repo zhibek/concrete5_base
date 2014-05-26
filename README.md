@@ -33,7 +33,7 @@ Hosts
 
 Add the following line to your hosts file:
 
-192.168.33.10 concretebase.localhost
+192.168.33.10 concrete5base.localhost
 
 
 Browse
@@ -41,4 +41,4 @@ Browse
 
 Browse to the following page to see the homepage:
 
-http://concretebase.localhost/
+http://concrete5base.localhost/
