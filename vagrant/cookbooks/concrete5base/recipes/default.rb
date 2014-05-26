@@ -12,7 +12,6 @@ include_recipe "mysql::server"
 include_recipe "concrete5base::custom_php"
 include_recipe "git"
 
-
 web_app "concrete5base" do
     template "concrete5base.conf.erb"
     server_name "concrete5base.localhost"
@@ -20,7 +19,6 @@ web_app "concrete5base" do
     application_env "vagrant"
     docroot "/var/www"
 end
-
 
 execute "apt-get-update-periodic" do
     command "apt-get update"
